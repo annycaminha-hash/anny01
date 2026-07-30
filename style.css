@@ -1,9 +1,9 @@
 :root {
-    --cor-primaria: #183C63;
-    --cor-secundaria: #3782d2;
-    --cor-fundo: #ffffff;
+    --cor-primaria: #673ab7; /* Roxo vibrante */
+    --cor-secundaria: #9575cd; /* Lilás suave */
+    --cor-fundo: #f3e5f5; /* Lavanda claríssimo para o fundo */
     --cor-texto: #151428;
-    --cor-contraste: #f3eef7;
+    --cor-contraste: #ede7f6; /* Roxo acinzentado muito claro para contraste suave */
     --cor-botao: #f9f9f9;
 
     --fonte-texto: 'Segoe UI', sans-serif;
@@ -14,11 +14,11 @@
 }
 
 .tema-escuro {
-    --cor-primaria: #A6CEFE;
-    --cor-secundaria: #98caff;
-    --cor-fundo: #0f172a;
+    --cor-primaria: #b39ddb; /* Lilás claro para contraste no escuro */
+    --cor-secundaria: #d1c4e9; /* Lilás claríssimo */
+    --cor-fundo: #1a1a2e; /* Azul arroxeado escuro para o fundo do tema escuro */
     --cor-texto: #ffffff;
-    --cor-contraste: #1e293b;
+    --cor-contraste: #311b92; /* Roxo profundo para contraste no escuro */
     --cor-botao: #151428;
 }
 
@@ -90,6 +90,7 @@ article {
     align-items: center;
     text-align: center;
     justify-content: center;
+    background-color: white; /* Adicionado para que os artigos tenham fundo branco no tema claro */
 }
 
 img {
