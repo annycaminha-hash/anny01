@@ -1,8 +1,8 @@
 :root {
-    --cor-primaria: #673ab7; /* Roxo vibrante */
-    --cor-secundaria: #9575cd; /* Lilás suave */
+    --cor-primaria: #920b1d; /* Roxo vibrante */
+    --cor-secundaria: #cf496a; /* Lilás suave */
     --cor-fundo: #f3e5f5; /* Lavanda claríssimo para o fundo */
-    --cor-texto: #151428;
+    --cor-texto: #690b0b;
     --cor-contraste: #ede7f6; /* Roxo acinzentado muito claro para contraste suave */
     --cor-botao: #f9f9f9;
 
@@ -14,11 +14,11 @@
 }
 
 .tema-escuro {
-    --cor-primaria: #b39ddb; /* Lilás claro para contraste no escuro */
+    --cor-primaria: #a71125; /* Lilás claro para contraste no escuro */
     --cor-secundaria: #d1c4e9; /* Lilás claríssimo */
     --cor-fundo: #1a1a2e; /* Azul arroxeado escuro para o fundo do tema escuro */
-    --cor-texto: #ffffff;
-    --cor-contraste: #311b92; /* Roxo profundo para contraste no escuro */
+    --cor-texto: #f571a8;
+    --cor-contraste: #851111; /* Roxo profundo para contraste no escuro */
     --cor-botao: #151428;
 }
 
